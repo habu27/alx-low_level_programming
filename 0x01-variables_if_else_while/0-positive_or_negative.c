@@ -1,20 +1,36 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
- *main - entry point
+ * main - entry point
  *
- *return(0): print after the command
+ * Return: always 0 (success/correct)
  */
+
 int main(void)
 {
 int n;
+
 srand(time(0));
-n = rnad() - RAND_MAX / 2;
-if (n > 0)
-printf("%d is positive\n", n);
-else if (n == 0)
-printf("%d is zero\n", n);
-else (n < 0)
-printf("%d is negative\n", n);
-return (0);
+n = rand() - RAND_MAX / 2;
+
+if (n==0)
+{
+printf("%i is zero\n", n);
 }
+
+else if (n<0)
+{
+printf("%i is negative\n", n);
+}
+
+else
+{
+printf("%i is positive\n", n);
+}
+
+return (0);
+
+}
+
