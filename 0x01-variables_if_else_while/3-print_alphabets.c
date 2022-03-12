@@ -18,11 +18,8 @@ putchar(lower_ch);
 for (upper_ch = 'A'; upper_ch <= 'z'; upper_ch++)
 {
 putchar(upper_ch);
+putchar('\n');
 }
-
-
-putchar ('\n');
-
 return (0);
 
 }
