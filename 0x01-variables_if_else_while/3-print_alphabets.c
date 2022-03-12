@@ -4,20 +4,20 @@
  *
  * Return: always 0 (success)
  */
-
 int main(void)
 
 {
-int ch;
+char lower_ch;
+char upper_ch;
 
-for (ch = 'a'; ch <= 'z'; ch++)
+for (lower_ch = 'a'; lower_ch <= 'z'; ch++)
 {
-putchar(ch);
+putchar(lower_ch);
 }
 
-for (ch = 'A'; ch <= 'z'; ch++)
+for (upper_ch = 'A'; upper_ch <= 'z'; ch++)
 {
-putchar(ch);
+putchar(upper_ch);
 }
 
 putchar('\n');
