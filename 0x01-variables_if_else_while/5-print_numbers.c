@@ -16,7 +16,7 @@ for (h = 0 ; h < 10; h++)
 printf("%dh", h);
 }
 
-printf"\n");
+printf("\n");
 
 return (0);
 
