@@ -8,12 +8,12 @@
 int main(void)
 
 {
-int h;
+int i;
 
-for (h = 0 ; h < 10; h++)
+for (i = 0 ; i < 10; i++)
 
 {
-printf("%h", h);
+printf("%i", i);
 }
 
 printf("\n");
