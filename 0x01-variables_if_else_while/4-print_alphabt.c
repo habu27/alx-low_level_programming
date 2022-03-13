@@ -12,10 +12,10 @@ char  ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 if (ch == 'q')
-continue:
+continue;
 
 else if(ch == 'e')
-continue:
+continue;
 
 putchar(ch);
 }
