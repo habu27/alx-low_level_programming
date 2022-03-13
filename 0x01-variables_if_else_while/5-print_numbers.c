@@ -13,7 +13,7 @@ int h;
 for (h = 0 ; h < 10; h++)
 
 {
-printf("%dh", h);
+printf("%h", h);
 }
 
 printf("\n");
