@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <time.h>
 #include "main.h"
 
 /**
@@ -7,10 +9,14 @@
 
 int main(void)
 {
-        int i;
+       int n;
 
-        i = 98;
-        positive_or_negative(i);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
-        return (0);
+	if (n = 98)
+{
+	printf("%d is zero\n", n);
+}
+	return (0);
 }
